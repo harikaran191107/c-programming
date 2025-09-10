@@ -1,6 +1,10 @@
 #include<stdio.h>
 int main()
 {
-	printf("welome");
+	int a,b,c;
+	scanf("%d%d",&a,&b);
+	c=a+b;
+	printf("the sum of two number is""%d",c);
 	return 0;
+	
 }

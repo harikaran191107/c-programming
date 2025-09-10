@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main()
 {
-	char ch[20];
-	scanf("%s",&ch);
-	printf("%s",ch);
+	int a,b,c;
+	scanf("%d%d",&a,&b);
+	c=a-b;
+	printf("the difference of two numbers""%d",c);
 	return 0;
 }

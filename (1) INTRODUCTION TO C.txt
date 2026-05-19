@@ -1,0 +1,61 @@
+INTRODUCTION TO C
+
+what is c program?
+
+c is a widely used and powerful language developed by Dennis Richie at bell labs in 1972.Programming is defined as the set of instructions given to the computers C language is also called new B language.
+
+Advantages of using C:
+
+i. simple and easy
+ii. fast execution
+iii. portability
+iv. structured language
+v. rich library
+
+Disadvantages of C:
+
+i. no built in object oriented programming
+ii. less secure
+iii. manual management
+
+
+Basic structure of a c program:
+ 
+#include<stdio.h>
+int main()
+    {
+     int num;
+     scanf("");
+     printf("");
+     return 0;
+    }
+
+In this,
+
+#include  -->preprocessor
+<stdio.h> -->header file
+int main  -->main function
+()        -->paranthesis
+int       -->datatype
+num       -->variable
+scanf     -->used to scan the given variable
+printf    -->used to print the result
+{}        -->curly braces
+return 0  -->exit status
+;         -->end of the statement
+
+
+first program in c:
+ 
+#include<stdio.h>
+int main()
+    {
+     printf("Hello,World!");
+     return 0;
+    }
+ 
+output:
+Hello,World!
+
+
+

@@ -1,0 +1,39 @@
+COMMANDS:
+
+Commands are used to explain and to cut off the code in an easy manner within the code.
+
+Types of commands:
+
+i. single line command:
+
+These commands are used to explain or remove a single line in a code that is represented by a symbol //
+
+example:
+
+#include<stdio.h>
+int main(){
+    printf("c programming");
+    //printf("python");
+    return 0;
+   }
+
+output:
+c programming 
+
+ii. multiline command:
+
+These commands are used to explain or remove two or more lines in a code that is represented by a symbol /*(start) and */(end)
+
+example:
+
+#include<stdio.h>
+int main(){
+    printf("c programming");
+    /*printf("python");
+    printf("html");
+    printf("javascript");*/
+    return 0;
+   }
+
+output:
+c programming 

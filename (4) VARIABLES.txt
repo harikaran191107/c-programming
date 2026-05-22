@@ -1,0 +1,26 @@
+VARIABLES
+
+Variables:
+
+Variables are used to store the data and it can be changed or reuse at anytime of execution of the programme.
+
+example:
+#include<stdio.h>
+int main(){
+    int num1,num2;
+    scanf(""); 
+    printf("");
+    return 0;
+   }
+ 
+In this,
+
+num1
+num2 are the variables
+
+Rules for variables:  variables:
+ 
+i. It can be any alphabets, words, numbers and underscore
+ii. It should not be start with numbers
+iii. No white space is allowed 
+iv. It should not contain any keyword or reserved words

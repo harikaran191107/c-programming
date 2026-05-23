@@ -1,0 +1,69 @@
+DATATYPES
+
+Datatypes:
+
+Data type tells the compiler what kind of value a variable can store, how much memory it needs, and what operations can be performed on it.
+
+Types of datatypes:
+
+i. primitive datatypes: single value
+example: int, float, char, double
+ 
+ii. non-primitive datatypes: collection of values
+example: arrays, strings
+
+Data Type   Types of datatype   Description                                Typical Size 
+ int             %d             Stores integers                            4 bytes      
+ char            %c             Stores a single character                  1 byte       
+ float           %f             Stores decimal numbers (single precision)  4 bytes      
+ double          %lf            Stores decimal numbers (double precision)  8 bytes      
+
+example:
+
+int:
+#include<stdio.h>
+int main(){
+    int num;
+    scanf("%d",&num);
+    printf("%d",num);
+    return 0;
+   }
+
+input:25
+output:25
+
+char:
+#include<stdio.h>
+int main(){
+    char ch;
+    scanf("%c",&ch);
+    printf("%c",ch);
+    return 0;
+   }
+
+input:h
+output:h
+
+float:
+#include<stdio.h>
+int main(){
+    float num;
+    scanf("%f",&num);
+    printf("%f",num);
+    return 0;
+   }
+
+input:3.1356789
+output:3.14
+
+double:
+#include<stdio.h>
+int main(){
+    double num;
+    scanf("%lf",&num);
+    printf("%lf",num);
+    return 0;
+   }
+
+input:25.11234567890
+output:25.6

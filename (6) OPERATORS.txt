@@ -1,0 +1,197 @@
+OPERATORS:
+Operators are symbols used to perform operations on variables and values.
+
+example:
+a + b
+
+In this,
+"+" is an operator.
+
+Types of Operators: 
+
+i. Arithmetic Operators:
+This operator is used for performing mathematical calculations.
+
+"+"-->addition
+"-"-->subtraction
+"*"--.multiplication
+"\"-->division
+"%"-->modulo
+
+example:
+#include<stdio.h>
+int main(){
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf("%d", a + b);
+    printf("%d", a - b);
+    printf("%d", a * b);
+    printf("%d", a \ b);
+    printf("%d", a % b); 
+    return 0;
+   }
+
+input:3 2
+output:5 1 6 1 1
+
+
+ii. Relational Operators:
+This operator is used to perform the comparison of values.
+
+< -->greater than
+> -->lesser than
+<= -->greater than and equal
+>= -->lesser than and equal
+== --> equal
+!= -->not equal
+
+example:
+#include<stdio.h>
+int main(){
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf("%d", a < b);
+    printf("%d", a > b);
+    printf("%d", a <= b);
+    printf("%d", a >= b);
+    printf("%d", a == b);
+    printf("%d", a != b); 
+    return 0;
+   }
+
+input:3 2
+output:0 1 0 0 0 1
+
+
+iii. Logical Operators:
+This operator is used to combine conditions.
+
+"&&" -->logical and
+"||" -->logical or
+"!' --> logical not
+
+example:
+#include<stdio.h>
+int main(){
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf("%d",(a<b) && (a>b));
+    printf("%d",(a<b) || (a>b));
+    printf("%d",!(a<b));
+    return 0;
+   }
+
+input:3 2
+output:0 1 1
+
+iv. Assignment Operators:
+This operator is used to assign values.
+
+"="-->equals to
+"+="-->addition
+"-="-->subtraction
+"*="--.multiplication
+"\="-->division
+"%="-->modulo
+
+example:
+#include<stdio.h>
+int main(){
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf("%d",a=);
+    printf("%d",b=);
+    printf("%d",a+=b);
+    printf("%d",a-=b);
+    printf("%d",a*=b);
+    printf("%d",a\=b);
+    printf("%d",a%=b);
+    return 0;
+   }
+  
+input:3 2
+outpt:3 2 5 1 6 1 1
+ 
+
+v. Increment and Decrement Operators:
+This operator is used to increase or decrease the values
+
+"++" -->addition or incrementing the value by one
+"--" -->subtraction or decreasing the value by one
+
+example:
+#include<stdio.h>
+int main(){
+    int num;
+    scanf("%d",&num);
+    printf("%d",num++);
+    printf("%d",num--);
+    return 0;
+   }
+
+input:10
+output:11 10
+
+vi. Bitwise Operators:
+This operator is used to operate on binary bits.
+	
+"&" -->Bitwise AND(both condition are true)
+"|" -->Bitwise OR(any one condition is true)	
+"^" -->XOR(true means false)
+"~" -->Complement
+
+example:
+#include <stdio.h>
+int main() {
+    int a,b;
+    printf("%d", a & b);
+    printf("%d", a | b);
+    printf("%d", a ^ b);
+    printf("%d", ~a);
+    return 0;
+   }
+
+input:5 3
+output:1 7 6 -6 
+
+vii. Conditional Operator (ternary):
+Syntax:
+condition ? expression1 : expression2;
+
+example:
+#include<stdio.h>
+int main(){
+    int a;
+    scanf("%d",&a);
+    printf((a<=35)?"pass":"fail");
+    return 0;
+   }
+
+input:56
+output:pass
+
+viii. Special Operators:
+There are some special operators in C:
+
+"sizeof" -->gives the size of the datatype
+
+Example:
+#include<stdio.h>
+int main(){
+    printf("%d",sizeof(int));
+    printf("%d",sizeof(char));
+    printf("%d",sizeof(float));
+    printf("%d",sizeof(double));
+    return 0;
+   }
+
+output:2 1 4 8
+
+
+
+
+
+
+
+
+

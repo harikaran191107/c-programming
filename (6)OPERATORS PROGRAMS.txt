@@ -1,0 +1,166 @@
+OPERATORS PROGRAMS
+
+1.Arithmetic Operators
+
+i. Program to Add Two Numbers
+
+#include<stdio.h>
+int main(){
+    int a,b,sum;
+    printf("enter the number 1:");
+    scanf("%d",&a);
+    printf("enter the number 2:");
+    scanf("%d",&b);
+    sum=a+b;
+    printf("Sum=%d",sum);
+    return 0;
+}
+
+ii. Program to Find Remainder
+
+#include<stdio.h>
+int main(){
+    int a,b,rem;
+    printf("enter the number 1:");
+    scanf("%d",&a);
+    printf("enter the number 2:");
+    scanf("%d",&b);
+    rem=a%b;
+    printf("Remainder=%d",rem);
+    return 0;
+}
+
+iii. Program to Multiply Two Numbers
+
+#include<stdio.h>
+int main(){
+    int a,b,mul;
+    printf("enter the number 1:");
+    scanf("%d",&a);
+    printf("enter the number 2:");
+    scanf("%d",&b);
+    mul=a*b;
+    printf("Multiplication=%d",mul);
+    return 0;
+}
+
+
+2.Relational Operators
+
+i. Program to Check Greater Number
+
+#include<stdio.h>
+int main(){
+    int a,b;
+    printf("enter the number 1:");
+    scanf("%d",&a);
+    printf("enter the number 2:");
+    scanf("%d",&b);
+    printf("%d",a>b);
+    return 0;
+}
+
+ii. Program to Check Equal Numbers
+
+#include<stdio.h>
+int main(){
+    int a,b;
+    printf("enter the number 1:");
+    scanf("%d",&a);
+    printf("enter the number 2:");
+    scanf("%d",&b);
+    printf("%d",a==b);
+    return 0;
+}
+
+iii. Program to Check Less Than
+
+#include<stdio.h>
+int main(){
+    int a,b;
+    printf("enter the number 1:");
+    scanf("%d",&a);
+    printf("enter the number 2:");
+    scanf("%d",&b);
+    printf("%d",a<b);
+    return 0;
+}
+
+
+3.Logical Operators
+
+i. Program to Check AND Operator
+
+#include<stdio.h>
+int main(){
+    int a,b;
+    printf("enter the number 1:");
+    scanf("%d",&a);
+    printf("enter the number 2:");
+    scanf("%d",&b);
+    printf("%d",a&&b);
+    return 0;
+}
+
+ii. Program to Check OR Operator
+
+#include<stdio.h>
+int main(){
+    int a,b;
+    printf("enter the number 1:");
+    scanf("%d",&a);
+    printf("enter the number 2:");
+    scanf("%d",&b);
+    printf("%d",a||b);
+    return 0;
+}
+
+iii. Program to Check NOT Operator
+
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the number:");
+    scanf("%d",&a);
+    printf("%d",!a);
+    return 0;
+}
+
+
+4.Assignment Operators
+
+i. Program to Use += Operator
+
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the number:");
+    scanf("%d",&a);
+    a+=5;
+    printf("%d",a);
+    return 0;
+}
+
+ii. Program to Use -= Operator
+
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the number:");
+    scanf("%d",&a);
+    a-=8;
+    printf("%d",a);
+    return 0;
+}
+
+iii. Program to Use *= Operator
+
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the number:");
+    scanf("%d",&a);
+    a*=4;
+    printf("%d",a);
+    return 0;
+}

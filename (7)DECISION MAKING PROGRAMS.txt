@@ -1,0 +1,291 @@
+DECISION MAKING
+
+1. if Statement:
+
+i. Program 1
+
+#include<stdio.h>
+int main(){
+    int age;
+    printf("enter the age");
+    scanf("%d",&age);
+    if(age>=18){
+      printf("Eligible to vote");
+    }
+    return 0;
+}
+
+
+ii. Program 2
+
+#include<stdio.h>
+int main(){
+    int num;
+    printf("enter the number");
+    scanf("%d",&num);
+    if(num>0){
+      printf("Positive number");
+    }
+    return 0;
+}
+
+
+iii. Program 3
+
+#include<stdio.h>
+int main(){
+    int marks;
+    printf("enter the marks");
+    scanf("%d",&marks);
+    if(marks>=50){
+      printf("Pass");
+    }
+    return 0;
+}
+
+
+2. if else Statement:
+
+i. Program 1
+
+#include<stdio.h>
+int main(){
+    int num;
+    printf("enter the number");
+    scanf("%d",&num);
+    if(num%2==0){
+      printf("Even number");
+    }
+    else{
+      printf("Odd number");
+    }
+    return 0;
+}
+
+
+ii. Program 2
+
+#include<stdio.h>
+int main(){
+    int age;
+    printf("enter the age");
+    scanf("%d",&age);
+    if(age>=18){
+      printf("Major");
+    }
+    else{
+      printf("Minor");
+    }
+    return 0;
+}
+
+
+iii. Program 3
+
+#include<stdio.h>
+int main(){
+    int a,b;
+    printf("enter the value of a:");
+    scanf("%d",&a);
+    printf("enter the value of b:");
+    scanf("%d",&b);
+    if(a>b){
+      printf("A is greater");
+    }
+    else
+    {
+      printf("B is greater");
+    }
+    return 0;
+}
+
+
+3. else if Ladder:
+
+i. Program 1
+
+#include<stdio.h>
+int main(){
+    int marks;
+    printf("enter the marks");
+    scanf("%d",&marks);
+    if(marks>=90){
+      printf("Grade A");
+    }
+    else if(marks>=70){
+      printf("Grade B");
+    }
+    else{
+      printf("Grade C");
+    }
+    return 0;
+}
+
+
+ii. Program 2
+
+#include<stdio.h>
+int main(){
+    int num;
+    printf("enter the number:");
+    scanf("%d",&num);
+    if(num>0){
+      printf("Positive");
+    }
+    else if(num<0){
+      printf("Negative");
+    }
+    else{
+      printf("Zero");
+    }
+    return 0;
+}
+
+
+iii. Program 3
+
+#include<stdio.h>
+int main(){
+    int day;
+    printf("enter the day number:");
+    scanf("%d",&day);
+    if(day==1){
+      printf("Monday");
+    }
+    else if(day==2){
+      printf("Tuesday");
+    }
+    else if(day==3){
+      printf("Wednesday");
+    }
+    else{
+      printf("Invalid");
+    }
+    return 0;
+}
+
+
+4. Nested if:
+
+i. Program 1
+
+#include<stdio.h>
+int main(){
+    int age,citizen;
+    printf("enter the age:");
+    scanf("%d",&age);
+    printf("enter the citizen:");
+    scanf("%d",&citizen);
+    if(age>=18){
+      if(citizen==2){
+        printf("Eligible to vote");
+      }
+    }
+    return 0;
+}
+
+
+ii. Program 2
+
+#include<stdio.h>
+int main(){
+    int num;
+    printf("enter the number:");
+    scanf("%d",&num);
+    if(num>0){
+      if(num%2==0){
+        printf("Positive even number");
+      }
+    }
+    return 0;
+}
+
+
+iii. Program 3
+
+#include<stdio.h>
+int main(){
+    int username,password;
+    printf("enter the username:");
+    scanf("%d",&username);
+    printf("enter the password:");
+    scanf("%d",&password);
+    if(username==1234){
+      if(password==1235){
+         printf("Login successful");
+        }
+       }
+    return 0;
+}
+
+
+5. switch Statement:
+
+i. Program 1
+
+#include<stdio.h>
+int main(){
+    int day;
+    printf("enter the day number:");
+    scanf("%d",&day);
+    switch(day){
+    
+     case 1:
+     printf("Monday");
+     break;
+
+     case 2:
+     printf("Tuesday");
+     break;
+
+     default:
+     printf("Invalid");
+    }
+    return 0;
+}
+
+
+ii. Program 2
+
+#include<stdio.h>
+int main(){
+    char op;
+    printf("enter the operator:");
+    scanf("%d",&op);
+    switch(op){
+     case '+':
+     printf("Addition");
+     break;
+
+     case '-':
+     printf("Subtraction");
+     break;
+
+     default:
+     printf("Invalid operator");
+    }
+    return 0;
+}
+
+
+iii. Program 3
+
+#include<stdio.h>
+int main(){
+    int num;
+    printf("enter the number:");
+    scanf("%d",&num);
+    switch(num){
+     case 1:
+     printf("One");
+     break;
+
+     case 2:
+     printf("Two");
+     break;
+
+     default:
+     printf("Invalid");
+    }
+    return 0;
+}
